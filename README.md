@@ -11,7 +11,7 @@ The link below is a link to dropbox; within this link, you can watch a tutorial 
 
 https://www.dropbox.com/scl/fi/ejiikx9e56w9wxo561h1v/Fishing_Code_vid.mp4?rlkey=ezff2p8lvidiypbuxrmdmrgu0&st=pmdxb3xw&dl=0
 
-## Fishing Log: ##
+## Fishing Log Folder: ##
 
 https://github.com/joh80839/Fishing_log.git
 

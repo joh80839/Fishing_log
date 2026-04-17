@@ -10,3 +10,11 @@ Fishing Log App Tutorial:
 The link below is a link to dropbox; within this link, you can watch a tutorial on how to use the app designed for this project.
 
 https://www.dropbox.com/scl/fi/ejiikx9e56w9wxo561h1v/Fishing_Code_vid.mp4?rlkey=ezff2p8lvidiypbuxrmdmrgu0&st=pmdxb3xw&dl=0
+
+## Fishing Log: ##
+
+https://github.com/joh80839/Fishing_log.git
+
+This is the github repository that the Python script is in. If you have downloaded Python3 or one of the most recent versions from https://www.python.org/downloads/ , you can download the raw file called “fishingcode.py” from the GitHub link. Open the terminal for Mac or the command prompt for Windows, and make sure you are in the correct folder that you saved the file in by using “cd” or “cd ..” to move between folders. Type “python fishingcode.py” if you are on Windows or type “python3 fishingcode.py” if you are on a Mac and hit enter to run the script.  
+
+

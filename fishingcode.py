@@ -1,4 +1,7 @@
+import os
+
 while True: 
+     os.system("cls" if os.name == "nt" else "clear") 
      print()
      print("-- Fishing Log App --")
      print()
@@ -8,12 +11,16 @@ while True:
      #print("4. Search by Characteristics")
      print("3. Exit")
      print()
-     choice = input("Choose a number (1-3): ").strip().lower()
+
+     try:
+          choice = input("Choose a number (1–3): ").strip().lower()
+     except KeyboardInterrupt:
+               print("\n\nProgram interrupted\n")
+               break
 
      if choice not in ["1", "2", "3"]:
           print()
           input("-- Invalid choice. Try Again (Press Enter) -- ")
-          import os
           os.system("cls" if os.name == "nt" else "clear")
           continue
           
@@ -48,19 +55,16 @@ while True:
                     file.write(f"{species},{characteristics},{weight},{bait},{location},{time},{date}\n")
                print("\nSaved\n")
                input("Go back to Main Menu (Press Enter): ")
-               import os
                os.system("cls" if os.name == "nt" else "clear")
           
           elif choice2 in ["S", "s", "Save", "save"] and not any(total_output):
                print("\n-- Nothing to Save --\n")
                input("Go back to Main Menu (Press Enter): ")
-               import os
                os.system("cls" if os.name == "nt" else "clear")
           
           elif choice2 in ["C", "c", "Cancel", "cancel"]:
                print("\n-- Canceled --\n")
                input("Go back to Main Menu (Press Enter): ")
-               import os
                os.system("cls" if os.name == "nt" else "clear")
 
      if choice in "2":
@@ -85,13 +89,11 @@ while True:
                     print("(End of logs)")
                     print()
                     input("Go back to Main Menu (Press Enter): ")
-                    import os
                     os.system("cls" if os.name == "nt" else "clear")
           except:
                print("No logs found yet.")
                print()
                input("Go back to Main Menu (Press Enter): ")
-               import os
                os.system("cls" if os.name == "nt" else "clear")
 
      if choice in "3":

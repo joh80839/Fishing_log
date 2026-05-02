@@ -12,7 +12,9 @@ while True:
 
      if choice not in ["1", "2", "3"]:
           print()
-          print("-- Invalid choice. Try again. --\n")
+          input("-- Invalid choice. Try Again (Press Enter) -- ")
+          import os
+          os.system("cls" if os.name == "nt" else "clear")
           continue
           
      if choice in "1": 
@@ -44,17 +46,53 @@ while True:
 
                with open(filename, "a") as file: #Puts the values in the CSV file
                     file.write(f"{species},{characteristics},{weight},{bait},{location},{time},{date}\n")
+               print("\nSaved\n")
+               input("Go back to Main Menu (Press Enter): ")
+               import os
+               os.system("cls" if os.name == "nt" else "clear")
           
           elif choice2 in ["S", "s", "Save", "save"] and not any(total_output):
                print("\n-- Nothing to Save --\n")
+               input("Go back to Main Menu (Press Enter): ")
+               import os
+               os.system("cls" if os.name == "nt" else "clear")
           
           elif choice2 in ["C", "c", "Cancel", "cancel"]:
                print("\n-- Canceled --\n")
+               input("Go back to Main Menu (Press Enter): ")
+               import os
+               os.system("cls" if os.name == "nt" else "clear")
 
      if choice in "2":
-          print("\n-- Fishing Logs --\n")
-          input("Currently being worked on ")
-     
+          print("\n-- Logs --\n")
+          print("(Oldest -> Newest)\n")
+          
+          filename = "fishing_log.csv"
+
+          try:
+               with open(filename, "r") as file:
+                    next(file)
+                    for line in file:
+                         data = line.strip().split(",")
+                         print("  Species:", data[0] if data[0] else "?")
+                         print("  Characteristics:", data[1] if data[1] else "?")
+                         print("  Weight:", data[2] if data[2] else "?")
+                         print("  Bait Used:", data[3] if data[3] else "?")
+                         print("  Location:", data[4] if data[4] else "?")
+                         print("  Time:", data[5] if data[5] else "?")
+                         print("  Date:", data[6] if data[6] else "?")
+                         print()
+                    print("(End of logs)")
+                    print()
+                    input("Go back to Main Menu (Press Enter): ")
+                    import os
+                    os.system("cls" if os.name == "nt" else "clear")
+          except:
+               print("No logs found yet.")
+               print()
+               input("Go back to Main Menu (Press Enter): ")
+               import os
+               os.system("cls" if os.name == "nt" else "clear")
 
      if choice in "3":
           print()

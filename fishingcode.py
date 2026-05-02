@@ -5,7 +5,7 @@ while True:
      print()
      print("-- Fishing Log App --")
      print()
-     print("1. Add Catch")
+     print("1. Add a Catch")
      print("2. View Logs")
      #print("3. Search By Species")
      #print("4. Search by Characteristics")

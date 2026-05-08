@@ -1,6 +1,6 @@
 ## Fishing Log App
 
-This project focuses on solving the need for anglers who want to keep track of their fishing records. Anglers are defined as fishermen who catch fish with a hook and line. The target audience in this project are beginner anglers, since they are typically more at risk of unorganized record keeping, but all anglers can be victims of the problem.
+This project focuses on solving the need for anglers who want to keep track of their fishing records. Anglers are defined as fishermen who catch fish with a hook and line. The target audience in this project are anglers who have a problem with unorganized record-keeping.
 
 A fishing log application was built to allow anglers to have the ability to record and store fishing information within a device. The app was built using Python code, and the coding was created within Visual Studio Code. This app does not use a graphical user interface; the app is text-based and is used within a terminal or command line interface on a computer that has at least Python version 3 installed; earlier versions may not work as well.
 

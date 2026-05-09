@@ -9,7 +9,7 @@ A fishing log application was built to allow anglers to have the ability to reco
 Fishing Log App Tutorial:
 The link below is a link to dropbox; within this link, you can watch a tutorial on how to use the app designed for this project.
 
-https://www.dropbox.com/scl/fi/ri5ixuxvj3cnbrn86ans1/Fishing_Code_vid.mp4?rlkey=hcl5mwrpihg77bzapwq3utuxw&st=a6holk8g&dl=0
+https://www.dropbox.com/scl/fi/b2c0xtpx7oh9dafa73min/Fishing-Code-new-vid.mp4?rlkey=lzfy3xv85hkv2v3ylsanykjcf&st=cvakgtr5&dl=0
 
 **Fishing Log Folder**
 
